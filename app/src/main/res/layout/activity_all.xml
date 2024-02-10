@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FE6CC6"
+    tools:context=".allActivity">
+
+    <ListView
+        android:id="@+id/my_list_view"
+        android:layout_width="423dp"
+        android:layout_height="620dp"
+
+        android:layout_marginBottom="108dp"
+        android:background="#FFD2EE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+    </ListView>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="409dp"
+        android:layout_height="118dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ff6f" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="86dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#FED1ED"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageView12"
+        app:layout_constraintEnd_toEndOf="@+id/imageView12"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/imageView12"
+        app:srcCompat="@drawable/baseline_format_list_bulleted_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="40dp"
+        android:backgroundTint="#FE6CC6"
+        android:onClick="nmn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.45"
+        app:srcCompat="@drawable/baseline_home_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="67dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        android:backgroundTint="#FE6CC6"
+        android:onClick="trusxhd"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintTop_toTopOf="@+id/imageView12"
+        app:layout_constraintVertical_bias="0.096"
+        app:srcCompat="@drawable/baseline_info_24" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="191dp"
+        android:layout_height="42dp"
+        android:text="Все Блюда"
+        android:textSize="36dp"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
